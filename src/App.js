@@ -1,7 +1,7 @@
 import React from 'react';
 import { Client } from 'boardgame.io/react';
 import { TicTacToe } from './game';
-import { TicTacToeBoard } from './Board';
+import { TicTacToeBoard } from './board';
 import { SocketIO } from 'boardgame.io/multiplayer'
 
 
