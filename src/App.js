@@ -9,7 +9,7 @@ import { SocketIO } from 'boardgame.io/multiplayer'
 const TicTacToeClient = Client({
   game: TicTacToe,
   board: TicTacToeBoard,
-  multiplayer: SocketIO({ server: 'localhost:8000' }),
+  multiplayer: SocketIO({ server: 'https://comeplay.herokuapp.com' }),
 });
 
 class App extends React.Component {
