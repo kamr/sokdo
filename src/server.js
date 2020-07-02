@@ -5,11 +5,11 @@ import serve from 'koa-static';
 import mount from 'koa-mount';
 import { TicTacToe } from './game';
 
-const server = Server({ games: [TicTacToe] });
+const server =  Server({ games: [TicTacToe] });
 const PORT = process.env.PORT || 8000;
 
 // Build path relative to the server.js file
-const frontEndAppBuildPath = path.resolve(__dirname, './build');
+const frontEndAppBuildPath = path.resolve(__dirname, '../build');
 
 // Serve the build directory
 const static_pages = new Koa();
