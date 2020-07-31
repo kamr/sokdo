@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Run locally
+
+`yarn run dev`
+[http://localhost:3000](http://localhost:3000)
+
+### ---
 
 ## Available Scripts
 
