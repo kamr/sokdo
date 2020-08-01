@@ -9,7 +9,17 @@ import { Canvas, useFrame } from 'react-three-fiber'
 
 // const PORT = process.env.PORT || 8000;
 
-const server = `http://${window.location.hostname}`;
+const ENV = process.env.NODE_ENV
+
+console.log(process.env)
+
+let server = `https://${window.location.hostname}` // Prod
+if (ENV === 'development') {
+  console.log("DEV MODE")
+  server = `http://${window.location.hostname}:8000`  // Local
+}
+
+// const server = `http://${window.location.hostname}`;
 console.log(`Kamran: front end assuming server is at ${server}`)
 const importedGames = [{ game: TicTacToe, board: TicTacToeBoard }];
 
