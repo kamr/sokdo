@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import GameLobby from './GameLobby';
+import Home from './Home';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <GameLobby />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );

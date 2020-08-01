@@ -1,12 +1,14 @@
 ## Run locally
 
 server
-`yarn run start`
+`yarn run dev:server`
 client
-`yarn run dev`
+`yarn run dev:client`
+go to
 [http://localhost:3000](http://localhost:3000)
 
-
+heroku logs --tail
+heroku logs --tail --source app
 ### ---
 
 ## Available Scripts
