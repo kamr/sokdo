@@ -19,7 +19,7 @@ server.run(PORT, () => {
       next
     )
   );
-  console.log(`Running server on ${process.env.PORT}`)
+  console.log(`Running server on ${PORT}`)
 });
 
 // import { Server } from 'boardgame.io/server';
