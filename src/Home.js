@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import game from './game';
+import Game from './game';
 
 export default () => (
   <div id="home">
