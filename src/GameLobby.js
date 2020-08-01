@@ -10,7 +10,7 @@ import { Canvas, useFrame } from 'react-three-fiber'
 const PORT = process.env.PORT || 8000;
 
 const server = `http://${window.location.hostname}:${PORT}`;
-console.log(`Front end assuming server is at ${server}`)
+console.log(`Kamran: front end assuming server is at ${server}`)
 const importedGames = [{ game: TicTacToe, board: TicTacToeBoard }];
 
 // let myAnimation = anime({

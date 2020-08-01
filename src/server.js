@@ -19,7 +19,7 @@ server.run(PORT, () => {
       next
     )
   );
-  console.log(`Running server on ${PORT}`)
+  console.log(`Kamran: running server.js on ${PORT}`)
 });
 
 // import { Server } from 'boardgame.io/server';
