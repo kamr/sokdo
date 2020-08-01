@@ -1,7 +1,11 @@
 ## Run locally
 
+server
+`yarn run start`
+client
 `yarn run dev`
 [http://localhost:3000](http://localhost:3000)
+
 
 ### ---
 

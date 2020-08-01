@@ -28,11 +28,11 @@ import fs from 'fs';
 const PORT = process.env.PORT || 8000;
 const server = Server({
   games: [TicTacToe],
-  https: {
-    cert: fs.readFileSync('src/cert.pem'),
-    key: fs.readFileSync('src/key.pem'),
-  }
+  // https: {
+  //   cert: fs.readFileSync('src/cert.pem'),
+  //   key: fs.readFileSync('src/key.pem'),
+  // }
 });
 server.run(PORT, () => {
-  console.log(`Serving at: https://localhost:${PORT}/`);
+  console.log(`Serving at: http://localhost:${PORT}/`);
 });
