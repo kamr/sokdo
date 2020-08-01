@@ -18,7 +18,8 @@ server.run(PORT, () => {
       Object.assign(ctx, { path: 'index.html' }),
       next
     )
-  )
+  );
+  console.log(`Running server on ${process.env.PORT}`)
 });
 
 // import { Server } from 'boardgame.io/server';
