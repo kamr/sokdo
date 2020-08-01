@@ -7,9 +7,9 @@ import './GameLobby.css';
 import React, { useRef, useState } from 'react'
 import { Canvas, useFrame } from 'react-three-fiber'
 
-const PORT = process.env.PORT || 8000;
+// const PORT = process.env.PORT || 8000;
 
-const server = `http://${window.location.hostname}:${PORT}`;
+const server = `http://${window.location.hostname}`;
 console.log(`Kamran: front end assuming server is at ${server}`)
 const importedGames = [{ game: TicTacToe, board: TicTacToeBoard }];
 
